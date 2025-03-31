@@ -38,7 +38,7 @@ pip install -r requirements.txt
 📂 **cat_dog_classifier.h5**
 
 De todas formas he subido todos los archivos con sus códigos por si se quiere realizar alguna modificación.
-###Importante eliminar los números de los archivos subidos!!!
+### Importante eliminar los números de los archivos subidos!!!
 Ejemplo: descargar_gato_perro.py en vez de 1-descargar_gato_perro.py
 
 ### 4️⃣ Ejecutar la aplicación
