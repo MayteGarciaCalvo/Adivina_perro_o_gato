@@ -26,6 +26,7 @@ model = tf.keras.models.load_model("cat_dog_classifier.h5")
 
 # Función para predecir
 def predict_image(image):
+    image = image.convert("RGB")  # Convertir a RGB si es necesario
     image = image.resize((160, 160))  # Redimensionar a 160x160
     image_array = np.array(image) / 255.0  # Normalizar
     image_array = np.expand_dims(image_array, axis=0)  # Añadir batch
