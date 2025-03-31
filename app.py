@@ -15,11 +15,11 @@ from tensorflow.keras.applications import MobileNetV2
 from tensorflow.keras.models import Model
 import random
 
-#import streamlit as st
+
 from PIL import Image
 import matplotlib.pyplot as plt
 
-#from trainer import model
+
 
 # Cargar el modelo
 model = tf.keras.models.load_model("cat_dog_classifier.h5")
