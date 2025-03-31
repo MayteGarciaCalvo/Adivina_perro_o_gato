@@ -19,7 +19,7 @@ import random
 from PIL import Image
 import matplotlib.pyplot as plt
 
-from trainer import model
+#from trainer import model
 
 # Cargar el modelo
 model = tf.keras.models.load_model("cat_dog_classifier.h5")
